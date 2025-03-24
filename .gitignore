@@ -1,0 +1,65 @@
+# Ignore Node.js dependencies and build files (Frontend)
+frontend/node_modules/
+frontend/.next/
+frontend/.cache/
+frontend/dist/
+frontend/dist-ssr/
+frontend/build/
+frontend/.parcel-cache/
+frontend/.turbo/
+frontend/.eslintcache
+frontend/.env.local
+frontend/.env.production.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/yarn.lock
+frontend/package-lock.json
+*.local
+
+# Ignore Python dependencies and environment files (Backend)
+backend/__pycache__/
+backend/venv/
+backend/.venv/
+backend/env/
+backend/.env
+backend/.env.local
+backend/.python-version
+backend/instance/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/db.sqlite3
+backend/migrations/
+backend/subtitles/
+backend/uploads/
+
+# Ignore system and IDE-specific files
+.DS_Store
+*.swp
+*.swo
+*.swn
+*.sublime-workspace
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#Ignore the logs and all
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Ignore AWS credentials (if used)
+.aws/
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
