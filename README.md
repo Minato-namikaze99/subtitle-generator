@@ -8,14 +8,6 @@ A **Subtitle Generator Web Application** that automatically generates `.srt` sub
 - Displays real-time transcription status updates.
 - Automatically downloads the generated **.srt subtitle file**.
 
-## 📁 Project Structure
-📂 Subtitle-Generator 
-│── 📂 frontend/ # React + Tailwind frontend 
-│── 📂 backend/ # Flask backend (AWS Transcribe integration) 
-│── 📄 .gitignore # Ignored files for frontend & backend 
-│── 📄 README.md # Project documentation
-
-
 ## 🛠️ Tech Stack
 **Frontend:**  
 - React ⚛️  
