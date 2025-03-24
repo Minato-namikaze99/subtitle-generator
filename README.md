@@ -45,14 +45,16 @@ source venv/bin/activate  # For macOS/Linux
 venv\Scripts\activate      # For Windows
 pip install -r requirements.txt
 ```
+
+### **3. AWS Setup**
 Configure AWS Credentials in `.env` by modifying the same contents as in `.env.example`
 
-### **3. Backend Setup (Flask)**
+### **4. Starting the Backend**
 ```bash
 python app.py
 ```
 
-### **4. Frontend Setup (React)**
+### **5. Frontend Setup (React)**
 ```bash
 cd frontend
 npm install
